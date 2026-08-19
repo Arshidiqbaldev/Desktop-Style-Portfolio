@@ -17,12 +17,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const navBar = document.createElement("nav");
 
-        navBar.className = "nav-bar w-auto flex items-center gap-2 transition rounded-3xl border border-gray-400/20 justify-center  p-2 bg-base-200/50 inset-shadow-xs inset-shadow-gray-500/30 absolute z-100 squircle -bottom-2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+        navBar.className = "nav-bar w-auto flex items-center gap-2 transition rounded-3xl border border-gray-400/20 justify-center  p-2 bg-base-200/50 inset-shadow-xs inset-shadow-gray-500/30 absolute z-100 squircle -bottom-3 left-1/2 -translate-x-1/2 -translate-y-1/2"
 
         navBar.innerHTML =
             `
 
-              <a href="index.html" class="md:tooltip bg-orange-500  rounded-2xl flex items-center justify-center group transition p-2"
+              <a href="index.html" class="tooltip bg-orange-500  rounded-2xl flex items-center justify-center group transition p-2"
         data-tip="Home">
         <svg xmlns="http://www.w3.org/2000/svg" class="size-8 text-base-content group-hover:size-10 transition "
           viewBox="0 0 24 24"><!-- Icon from ProIcons by ProCode - https://github.com/ProCode-Software/proicons/blob/main/LICENSE -->
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
       </a>
 
 
-      <a href="about.html" class="md:tooltip bg-purple-500  rounded-2xl  flex items-center justify-center group transition p-2"
+      <a href="about.html" class="tooltip bg-purple-500  rounded-2xl  flex items-center justify-center group transition p-2"
         data-tip="About">
 
         <svg xmlns="http://www.w3.org/2000/svg" class="size-8 text-base-content group-hover:size-10 transition"
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
       </a>
 
 
-      <a href="index.html" class="md:tooltip bg-red-500  rounded-2xl flex items-center justify-center group transition p-2"
+      <a href="index.html" class="tooltip bg-red-500  rounded-2xl flex items-center justify-center group transition p-2"
         data-tip="Projects">
 
         <svg xmlns="http://www.w3.org/2000/svg" class="size-8 text-base-content group-hover:size-10 transition"
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
       </a>
 
 
-      <a href="index.html" class="md:tooltip bg-blue-500  rounded-2xl  flex items-center justify-center group transition p-2"
+      <a href="index.html" class="tooltip bg-blue-500  rounded-2xl  flex items-center justify-center group transition p-2"
         data-tip="Mail">
 
         <svg xmlns="http://www.w3.org/2000/svg" class="size-8 text-base-content group-hover:size-10 transition"
