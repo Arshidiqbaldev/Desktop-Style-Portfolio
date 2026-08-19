@@ -2,6 +2,7 @@
 
 
 @import "tailwindcss";
+@custom-variant hover (&:hover);
 
 @plugin "daisyui" {
   themes: cupcake --default, dark --prefersdark, cupcake;
@@ -19,19 +20,11 @@
 
 @layer components {
 
-  .squircle {
-    corner-shape: squircle;
-    border-radius: 30px;
-  }
 
-  .squircle-2 {
-    corner-shape: squircle;
-    border-radius: 20px;
-  }
 
 
   .transition {
-    transition: all 200ms ease-in-out !important;
+    transition: all 300ms ease-in-out !important;
   }
 
 
