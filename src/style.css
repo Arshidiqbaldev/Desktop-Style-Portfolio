@@ -16,6 +16,67 @@
 
 }
 
+:root {
+  color-scheme: dark;
+  --portfolio-bg: #090909;
+  --portfolio-card: #151515;
+  --portfolio-text: #f4f4f4;
+  --portfolio-muted: #a3a3a3;
+  --portfolio-line: rgba(255, 255, 255, 0.12);
+  --portfolio-accent: #e45745;
+}
+
+body {
+  background: var(--portfolio-bg);
+  color: var(--portfolio-muted);
+}
+
+.window-tab {
+  background-color: var(--portfolio-card);
+  border-color: var(--portfolio-line);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.45);
+}
+
+.content {
+  color: var(--portfolio-muted);
+}
+
+.content h1,
+.content h2,
+.content .text-base-content {
+  color: var(--portfolio-text);
+}
+
+.content .text-red-500,
+.content .hover\:text-red-500:hover {
+  color: var(--portfolio-accent) !important;
+}
+
+.content .bg-red-500 {
+  background-color: var(--portfolio-accent) !important;
+}
+
+.content [class*="bg-base-200"] {
+  background-color: var(--portfolio-card);
+}
+
+.content input,
+.content textarea {
+  background-color: var(--portfolio-card);
+  border-color: var(--portfolio-line);
+  color: var(--portfolio-text);
+}
+
+.content input::placeholder,
+.content textarea::placeholder {
+  color: var(--portfolio-muted);
+}
+
+.content a:not(.nav-bar a),
+.content button {
+  transition: color 200ms ease, background-color 200ms ease, border-color 200ms ease;
+}
+
 
 
 @layer components {

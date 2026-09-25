@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
       </a>
 
 
-      <a href="index.html" class="tooltip bg-red-500 rounded-xl md:rounded-2xl flex items-center justify-center group transition p-2"
+      <a href="projects.html" class="tooltip bg-red-500 rounded-xl md:rounded-2xl flex items-center justify-center group transition p-2"
         data-tip="Projects">
 
         <svg xmlns="http://www.w3.org/2000/svg" class="size-5 md:size-8 text-base-content group-hover:size-7 group-hover:md:size-10 transition "
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
       </a>
 
 
-      <a href="index.html" class="tooltip bg-blue-500 rounded-xl md:rounded-2xl  flex items-center justify-center group transition p-2"
+      <a href="contact.html" class="tooltip bg-blue-500 rounded-xl md:rounded-2xl  flex items-center justify-center group transition p-2"
         data-tip="Mail">
 
         <svg xmlns="http://www.w3.org/2000/svg" class="size-5 md:size-8 text-base-content group-hover:size-7 group-hover:md:size-10 transition "

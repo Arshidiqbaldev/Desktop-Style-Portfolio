@@ -10,6 +10,10 @@ export default defineConfig({
             input: {
                 main: 'index.html',
                 about: 'about.html',
+                services: 'services.html',
+                projects: 'projects.html',
+                skills: 'skills.html',
+                contact: 'contact.html',
             },
         },
     },
